@@ -54,7 +54,7 @@ g = sns.violinplot(y='Species', x='PetalWidthCm', data=iris1, inner='quartile')
 plt.show()
 
 plt.figure(figsize=(10,8)) 
-sns.heatmap(iris1.corr(),annot=True,cmap='cubehelix_r') #draws  heatmap with input as the correlation matrix calculted by(iris.corr())
+sns.heatmap(self.iris1.drop('Species', axis=1).corr(), annot=True, cmap='cubehelix_r') #draws  heatmap with input as the correlation matrix calculted by(iris.corr())
 plt.show()
 
 X = iris.drop(['Id', 'Species'], axis=1)
