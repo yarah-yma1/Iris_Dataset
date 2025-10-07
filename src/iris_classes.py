@@ -76,7 +76,7 @@ class IrisVisualizer:
 
     def heatmap(self):
         plt.figure(figsize=(10,8)) 
-        sns.heatmap(self.iris1.corr(), annot=True, cmap='cubehelix_r')
+        sns.heatmap(self.iris1.drop('Species', axis=1).corr(), annot=True, cmap='cubehelix_r')
         plt.show()
 
 
