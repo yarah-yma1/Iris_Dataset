@@ -6,7 +6,7 @@ This project demostrates the Iris dataset which contains a collection of flower 
 - [How to Use](#how-to-use)
 - [References](#references)
 # Implementation
-The implementation consists of using the Iris dataset which consists of 150 samples with 4 features which includes pepal length, sepal width, petal length, petal width). There are several classification models utilized for these project. Outputs are found in the media folder. 
+The implementation consists of using the Iris dataset which consists of 150 samples with 4 features which includes pepal length, sepal width, petal length, petal width). There are several classification models utilized for this project. Outputs are found in the media folder. 
 # Requirements 
 This project requires numpy, pandas, matplotlib, seaborn, and scikit-learn. It was developed using a Python environment through VSCode.
 Use 'pip install -r requirements.txt' to install the following dependencies:
