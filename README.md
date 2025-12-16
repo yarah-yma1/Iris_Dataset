@@ -2,12 +2,12 @@
 This project demostrates the Iris dataset which contains a collection of flower measurements across three species. The goal is to demonstrate data visualization and basic classification between the species. This repository includes a media folder containing visual outputs and figures, a documentation folder with statistical information and supporting project documents, and a source code folder where all implementation files are stored.
 # Table Of Contents
 - [Implementation](#implementation)
-- [Requirements](#requirments)
+- [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [References](#references)
 # Implementation
 The implementation consists of using the Iris dataset which consists of 150 samples with 4 features which includes pepal length, sepal width, petal length, petal width). There are several classification models utilized.   
-# Requirments 
+# Requirements 
 This project requires numpy, pandas, matplotlib, seaborn, and scikit-learn. It was developed using a Python environment through VSCode.
 Use 'pip install -r requirements.txt' to install the following dependencies:
 
