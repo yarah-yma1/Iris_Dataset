@@ -1,5 +1,5 @@
 # Iris_Dataset
-This project demostrates the Iris dataset which contains a collection of flower measurements across three species. The goal is to demonstrate data visualization and basic classification between the species. 
+This project demostrates the Iris dataset which contains a collection of flower measurements across three species. The goal is to demonstrate data visualization and basic classification between the species. This repository includes a media folder where outputs + visuals are found, a documentation folder where statistical information is found along side any other important documentations, and source code folder where codes are found. 
 # Table Of Contents
 - [Implementation](#implementation)
 - [Requirements](#requirments)
